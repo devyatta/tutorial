@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\programm c#\\tutorial01\\ConsoleApp2\\ConsoleApp2.csproj": {}
+    "Z:\\Devyatta\\tutorial01\\ConsoleApp2\\ConsoleApp2.csproj": {}
   },
   "projects": {
-    "G:\\programm c#\\tutorial01\\ConsoleApp2\\ConsoleApp2.csproj": {
+    "Z:\\Devyatta\\tutorial01\\ConsoleApp2\\ConsoleApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\programm c#\\tutorial01\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectUniqueName": "Z:\\Devyatta\\tutorial01\\ConsoleApp2\\ConsoleApp2.csproj",
         "projectName": "ConsoleApp2",
-        "projectPath": "G:\\programm c#\\tutorial01\\ConsoleApp2\\ConsoleApp2.csproj",
-        "packagesPath": "C:\\Users\\Jarvis\\.nuget\\packages\\",
-        "outputPath": "G:\\programm c#\\tutorial01\\ConsoleApp2\\obj\\",
+        "projectPath": "Z:\\Devyatta\\tutorial01\\ConsoleApp2\\ConsoleApp2.csproj",
+        "packagesPath": "C:\\Users\\ragli\\.nuget\\packages\\",
+        "outputPath": "Z:\\Devyatta\\tutorial01\\ConsoleApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jarvis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ragli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
