@@ -14,48 +14,66 @@ namespace ConsoleApp2
 
 
 
-
-
-            // написать программу , запрос х(любое число) запрос второго числа, если сумма предыдущих чисел меньше второго числа , введите заного второе число , если верно то суммировать 
-            // int a . int b  int sum
-            // 1 ЧИСЛО 10 второе 11 то все верно будет 21 , и ввод 2 рого числа должен повториться , с основным условие , т.е. число должно быть больше чем сумма пред чисел
-
-
-            Console.WriteLine("введите число");
-            int num = Convert.ToInt32(Console.ReadLine());
-
-
-
-            Console.WriteLine("введитие второе число");
-            int num2 = Convert.ToInt32(Console.ReadLine());
-
-            int sum = num + num2;
-            Console.WriteLine($"результат {sum}");
-
-            while (true)
+            int[,,] mas = { { { 1, 2, 3, 4 },{ 3, 4, 5, 6 } },
+                { { 4, 5, 6, 7 }, { 6, 7, 8, 9 } },
+                { { 7, 8, 9, 10 }, { 9, 10, 11, 12 } },
+                { { 10, 11, 12, 13 }, { 12, 13, 14, 15 } }
+              };
+            Console.Write("{");
+            for (int i = 0; i<mas.GetUpperBound(0)+1;i++)
             {
 
-                Console.WriteLine("введите следуюющее число");
+                Console.Write("{");
+                
 
-                int num3 = Convert.ToInt32(Console.ReadLine());
-
-
-                while (num3 <= sum || num3 < sum)
+                for (int j =0; j<mas.GetUpperBound(1)+1;j++)
                 {
 
-                    Console.WriteLine("не соответствует требованию");
+                    Console.Write("{");
 
-                    num3 = Convert.ToInt32(Console.ReadLine());
+                    for (int k =0; k<mas.GetUpperBound(2)+1;k++)
+                    {
+
+                        Console.Write($"{mas[i, j, k]}");
+                        if (k < mas.GetUpperBound(2))
+                        {
+                            Console.Write(",");
+                        }
+                    }
+
+                    // Console.Write(mas[i, j, 0]);
+                    Console.Write("}");
+                    
+                    if(j < mas.GetUpperBound(1))
+                        Console.Write(",");
                 }
+                // Console.Write(mas[i,0,0]);
+                
+                Console.Write("}");
+                
+                if(i<mas.GetUpperBound(0))
+                    Console.Write(",");
 
-                int result = sum + num3;
-                Console.WriteLine($"сумма двух предыдущих чисел {result}");
             }
-            
+            Console.Write("}");
 
-                
-                
-            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
             
