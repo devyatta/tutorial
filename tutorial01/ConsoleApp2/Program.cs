@@ -12,8 +12,8 @@ namespace ConsoleApp2
 
         {
 
-
-
+            
+            /*
             int[,,] mas = { { { 1, 2, 3, 4 },{ 3, 4, 5, 6 } },
                 { { 4, 5, 6, 7 }, { 6, 7, 8, 9 } },
                 { { 7, 8, 9, 10 }, { 9, 10, 11, 12 } },
@@ -56,6 +56,33 @@ namespace ConsoleApp2
 
             }
             Console.Write("}");
+            */
+
+
+            //1.
+            int point a = 10;
+
+
+            //2.
+            /*
+            for(int G=0; G<3; G++)
+            {
+                Console.Write("HI");
+                if (G == 2)
+                    G++;
+            }*/
+
+            //3
+            /*
+            bool a = true;
+            int i = 0;
+            while (a)
+            {
+                if(i > 5)
+                    i++;
+                    a = true;
+            }*/
+
 
 
 
